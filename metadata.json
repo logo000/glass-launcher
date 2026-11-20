@@ -7,7 +7,7 @@
             }
         ],
         "Category": "Application Launchers",
-        "Description": "Ruhiger Launchpad-Launcher mit Liquid-Glass-Fenster",
+        "Description": "Clean Launchpad-style launcher with a liquid-glass window",
         "EnabledByDefault": true,
         "Icon": "start-here-kde-symbolic",
         "Id": "de.andre.glasslauncher",
