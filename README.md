@@ -4,6 +4,10 @@ Ein Launchpad-artiger App-Starter für KDE Plasma 6, gebaut für Liquid-Glass-Ef
 (z. B. Better Blur mit Refraction). Das Fenster ist ein Plasma-Dialog ohne
 Theme-Füllung, damit der KWin-Blur sichtbar bleibt.
 
+![Glass Launcher](docs/screenshot.jpg)
+
+*Design-Entwurf; im echten Launcher kommen Glas und Icons von deinem System.*
+
 ## Funktionen
 
 - Raster mit Seiten, Wischen per Touchpad (seitlich und hoch/runter), Mausrad und Ziehen
