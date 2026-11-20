@@ -77,6 +77,7 @@ Item {
         }
 
         Text {
+            textFormat: Text.PlainText
             // soft shadow keeps labels legible on clear glass
             x: label.x
             y: label.y + 1
@@ -90,6 +91,7 @@ Item {
         }
 
         Text {
+            textFormat: Text.PlainText
             id: label
             anchors.top: iconWrap.bottom
             anchors.topMargin: 8

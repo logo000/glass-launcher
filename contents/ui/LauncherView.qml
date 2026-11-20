@@ -636,6 +636,7 @@ FocusScope {
                 Keys.onPressed: (event) => root.handleKey(event)
 
                 Text {
+                    textFormat: Text.PlainText
                     anchors.fill: parent
                     verticalAlignment: Text.AlignVCenter
                     text: "Apps suchen"
@@ -783,6 +784,7 @@ FocusScope {
                                 }
 
                                 Text {
+                                    textFormat: Text.PlainText
                                     id: pillText
                                     anchors.centerIn: parent
                                     visible: !slot.editing
@@ -907,6 +909,7 @@ FocusScope {
             }
 
             Text {
+                textFormat: Text.PlainText
                 anchors.centerIn: parent
                 text: root.count === 1 ? "1 App gefunden" : root.count + " Apps gefunden"
                 color: root.fg
@@ -1028,6 +1031,7 @@ FocusScope {
             Timer { id: maxLock; interval: 650; onTriggered: { wheel.locked = false; wheel.acc = 0; } }
 
             Text {
+                textFormat: Text.PlainText
                 anchors.centerIn: parent
                 width: root.gridW - 40
                 horizontalAlignment: Text.AlignHCenter
@@ -1108,6 +1112,7 @@ FocusScope {
                             GradientStop { position: 1; color: "#d9534f" }
                         }
                         Text {
+                            textFormat: Text.PlainText
                             anchors.centerIn: parent
                             text: (user.fullName || user.loginName || "?").charAt(0).toUpperCase()
                             color: "white"
@@ -1126,6 +1131,7 @@ FocusScope {
                 }
 
                 Text {
+                    textFormat: Text.PlainText
                     anchors.verticalCenter: parent.verticalCenter
                     text: user.fullName || user.loginName
                     color: root.fg

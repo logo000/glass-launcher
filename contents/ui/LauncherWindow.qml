@@ -70,7 +70,7 @@ PlasmaCore.Dialog {
         engine: "executable"
         onNewData: (source, data) => {
             const out = String(data.stdout || "").trim();
-            if (out.startsWith("0x")) win.xid = out;
+            if (/^0x[0-9a-fA-F]+$/.test(out)) win.xid = out;
             disconnectSource(source);
         }
     }
